@@ -1,0 +1,7 @@
+{
+    "webPort": "3000",
+    "dbHost": "146.185.130.82",
+    "dbUser": "1025",
+    "dbDatabase": "1025",
+    "secretkey": "een lange complexe tekst die moeilijk te raden is"
+}
