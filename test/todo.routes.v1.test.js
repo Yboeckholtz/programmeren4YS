@@ -18,7 +18,7 @@ chai.use(chaiHttp);
 describe('GET /api/v1/todos', function() {
 
     //
-    // Before all tests: get a valid JWT token from the server
+    // Before all tests: get a valid JWT token from the server.
     //
     before(function(done) {
         var user = {
