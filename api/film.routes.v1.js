@@ -98,7 +98,7 @@ routes.put('/rentals/:userid/:inventoryid', function(req, res) {
 });
 
 //
-// Todo moet toegevoegd worden. De nieuwe info wordt gestuurd via de body van de request message.
+// Voeg een todo toe. De nieuwe info wordt gestuurd via de body van de request message.
 //
 routes.post('/rentals/:userid/:inventoryid', function(req, res) {
 
