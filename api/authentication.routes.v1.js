@@ -119,5 +119,5 @@ router.post('/login', function(req, res) {
 //
 // });
 
-// Hiermee maken we onze router zichtbaar voor andere bestanden. 
+// Hiermee wordt router zichtbaar gemaakt voor andere bestanden.
     module.exports = router;
