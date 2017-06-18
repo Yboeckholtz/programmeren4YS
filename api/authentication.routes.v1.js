@@ -14,8 +14,8 @@ var db = require('../config/db');
 // Hier gaat de gebruiker inloggen.
 // Input: username en wachtwoord
 // ToDo: 
-//	 - zoek de username in de database, en vind het password wat opgeslagen is 
-// 	 - als user gevonden en password matcht, dan return valide token
+//	 - zoek de username in de database, en vind het password wat opgeslagen is. 
+// 	 - als user gevonden en password matcht, dan return valide token.
 //   - anders is de inlogpoging gefaald - geef foutmelding terug.
 //
 
