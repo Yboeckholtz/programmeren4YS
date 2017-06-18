@@ -11,8 +11,8 @@ var auth2 = require('../auth/authentication');
 var db = require('../config/db');
 
 //
-// Hier gaat de gebruiker inloggen.
-// Input: username en wachtwoord
+// Hier gaat de gebruiker inloggen
+// Input: username en wachtwoord 
 // ToDo: 
 //	 - zoek de username in de database, en vind het password wat opgeslagen is. 
 // 	 - als user gevonden en password matcht, dan return valide token.
@@ -28,7 +28,7 @@ router.post('/register', function (req,res) {
     var query = {
         sql: 'INSERT INTO `customer`(`first_name`, `last_name`) VALUES (?, ?)',
         values: [username, password],
-        timeout: 2000 // 2secs
+        timeout: 2000 // 2sec
     };
 
 
