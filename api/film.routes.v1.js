@@ -28,7 +28,7 @@ routes.get("/films", function(req, res){
 });
 
 //
-// Retourneer één specifieke film.
+// Retourneer 1 specifieke film.
 //
 routes.get('/films/:filmid', function(req, res) {
 
