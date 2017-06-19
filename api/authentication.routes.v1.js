@@ -49,7 +49,7 @@ router.post('/register', function (req,res) {
 
 router.post('/login', function(req, res) {
 
-    // Even kijken wat de inhoud is.
+    // Even bekijken wat de inhoud is..
     // console.dir(req.body);
 
     var username = req.body.username;
