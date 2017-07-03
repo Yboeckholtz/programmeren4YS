@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movieapp</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="preference_file_key">com.example.tomas.movieapp.SHARED_PREFS_FILE</string>
+    <string name="saved_token">saved_token</string>
+</resources>

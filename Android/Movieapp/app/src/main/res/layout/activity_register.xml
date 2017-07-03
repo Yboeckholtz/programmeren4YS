@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tomas.movieapp.Presentation.LoginActivity">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="368dp"
+    android:layout_height="wrap_content"
+    android:padding="25dip"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp">
+
+    <!--  Email -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#372c24" />
+
+    <EditText
+        android:id="@+id/edittextREmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:singleLine="true" />
+
+    <!--  First name -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="First Name"/>
+
+    <EditText android:layout_width="fill_parent"
+        android:id="@+id/edittextRFirstname"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="20dip"
+        android:singleLine="true"/>
+
+    <!--  Last Name -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="Last Name"/>
+
+    <EditText
+        android:id="@+id/edittextRLastName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:singleLine="true" />
+
+
+    <!--  Password -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#372c24"
+        android:text="Password"/>
+
+    <EditText android:layout_width="fill_parent"
+        android:id="@+id/edittextRPassword"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:singleLine="true"
+        android:password="true"/>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btnRRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:height="60dip"
+        android:text="Register" />
+
+
+</LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
